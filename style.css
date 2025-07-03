@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  color: orangered;
+  font-size: 2.5rem;
+  padding: 0.8rem;
+}
+.header{
+  background-color: rgb(252, 252, 252);
+  width: 100%;
+  display: flex;
+}
+.navcontainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-items: center;
+  width: 60%;
+  margin-left: 25%;
+}
+.nav_data{
+  width: 100%;
+}
+.navcontainer ul{
+  list-style-type: none;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+.navcontainer a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+}
+.navcontainer a:hover{
+  background-color: orange;
+}
+
+.navcontainer li{
+  float: right;
+}
+.navcontainer .nav_data ul li button{
+  background-color: orangered;
+  color: white;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  font-family: "Fjalla One", sans-serif;
+}
+.grid_fotos_inicio{
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: auto;
+  grid-template-areas: "fotoEsq fotoCen fotoDir";
+}
+#fotoEsq{
+  grid-area: "fotoEsq";
+}
+.foto{
+  display: block;
+  width: 99.999%;
+}
+
+.ms{
+  background-color: orangered;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 60px;
+  margin: 20px;
+}
+
+h3{
+  color: antiquewhite;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  width: 60%;
+  margin: 20px;
+}
+
+.CTA{
+  background-color: rgb(255, 255, 255);
+  color: orangered;
+  border: 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 25px;  
+}
+
+p{
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  width: 50%;
+  margin: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
